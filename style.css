@@ -1,0 +1,211 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./font/Poppins-Medium.ttf);
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #00172D;
+    color: white;
+    font-family: Poppins;
+}
+
+.home {
+    height: 100vh;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    border-bottom: 5px solid #03A9F4;
+    padding: 1rem;
+    background-color: #00172D;
+}
+
+header div {
+    margin-left: 135px;
+}
+
+header nav {
+    margin-right: 135px;
+
+}
+
+nav span {
+    margin-left: 5rem;
+}
+
+.home .container {
+    display: flex;
+    text-align: center;
+}
+
+.home .container > * {
+    margin-top: 10rem;
+}
+
+.home .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 9rem 0 0 10rem
+
+}
+
+.home .left h1 {
+    font-size: 6rem;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.home .left p {
+    width: 500px;
+}
+
+.home .right {
+    width: 50%;
+}
+
+.home .right > .container {
+    border: 5px solid #03A9F4;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    margin-top: .1rem;
+    margin-left: 5rem;
+    
+}
+
+.home .right img {
+    position: absolute;
+    width: 800px;
+    right: 60px;
+    bottom: 150px;
+}
+
+.buttons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.buttons button{
+    padding: 1rem;
+    background-color: transparent;
+    color: #03A9F4;
+    border: 1.5px solid #03A9F4;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-family: Poppins;
+    cursor: pointer;
+
+}
+
+.buttons button:hover {
+    background-color: #066794;
+    color: white;
+    border: 1px solid white;
+}
+
+.about {
+    height: 100vh;
+    display: flex;
+}
+
+.about > *  {
+    width: 50%;
+}
+
+.about img {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+
+.about .right {
+    margin-left: 10rem;
+    margin-top: 8rem;
+}
+
+.about h2 {
+    font-size: 2rem;
+}
+
+.about * > * {
+    margin-left: 2rem;
+}
+
+.about p {
+    margin-left: 5rem;
+}
+
+.contact {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-me h2 {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact .left {
+    margin-top: 10rem;
+    margin-right: 30rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact h1 {
+    font-size: 64px;
+}
+
+.social {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.social p {
+    font-size: 2rem;
+
+}
+
+.contact .socials img {
+    width: 50px;
+    height: 50px;
+}
+
+.contact .container {
+    display: flex;
+}
+
+.contact .right img {
+    position: absolute;
+    right: 100px;
+    width: 800px;
+}
